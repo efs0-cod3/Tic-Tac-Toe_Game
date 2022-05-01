@@ -1,0 +1,126 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+div {
+  border: solid 1px;
+  height: 200px;
+  width: 200px;
+  background-color: bisque;
+  cursor: pointer;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+}
+
+.modal-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, .5);
+  height: 100vh;
+  width: 100vw;
+  transition: all ease-in-out .5s;
+
+}
+
+.confetti{
+  background-image: url('../img/confetti.gif');
+  }
+.modal-container--hide {
+  display: none;
+  transition: all ease-in-out .5s;
+
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(47, 144, 94);
+  padding: 40px;
+  border-radius: 8px;
+  color: white;
+  transition: all ease-in-out .5s;
+
+}
+
+.piece {
+  cursor: pointer;
+  border: solid 2px;
+  padding: 20px 30px;
+  margin: 10px;
+  border-radius: 8px;
+  font-size: 3rem;
+  box-shadow: 0 0 1px 2px rgba(0, 0, 0, .5);
+  text-align: center;
+  border: none;
+  background-color: rgb(47, 144, 94);
+  color: white;
+  transition: all ease-in-out .5s;
+
+}
+
+.piece:active {
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, .5);
+  font-size: 2.9rem;
+}
+
+.reset-container {
+  position: absolute;
+  text-align: center;
+  background-color: rgba(0, 0, 0, .5);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all ease-in-out .5s;
+  color: white;
+
+
+}
+
+.reset-container--hide{
+  transition: all ease-in-out .5s;
+  display: none;
+}
+
+.r-btn {
+  cursor: pointer;
+  border: solid 2px;
+  padding: 20px 30px;
+  margin: 10px;
+  border-radius: 8px;
+  font-size: 3rem;
+  box-shadow: 0 0 1px 2px rgba(0, 0, 0, .5);
+  text-align: center;
+  border: none;
+  background-color: rgb(47, 144, 94);
+  color: white;
+  transition: all .5s;
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

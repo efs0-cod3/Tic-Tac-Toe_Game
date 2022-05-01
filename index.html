@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Tic-tac-Toe Game</title>
+
+		<!-- external CSS link -->
+		<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<main>
+			<section>
+				<div id="0" class="row1Col1"></div>
+				<div id="1" class="row1Col1"></div>
+				<div id="2" class="row1Col1"></div>
+				
+			</section>
+			<section>
+			<div id="3" class="row2Col2"></div>
+			<div id="4" class="row2Col2"><img class="confetti" src="" alt=""></div>
+			<div id="5" class="row2Col2"></div>
+		</section>
+		<section>
+			<div id="6" class="row3Col3"></div>
+			<div id="7" class="row3Col3"></div>
+			<div id="8" class="row3Col3"></div>
+		</section>
+		<section class="modal-container">
+			<section class="modal">
+				<h2>Select your piece</h2>
+			<article>
+				<button class='piece' id="x">X</button>
+				<button class='piece' id="o">O</button>
+			</article>
+			</section>
+		</section>
+		<section class="reset-container reset-container--hide">
+			<section class="reset-modal">
+				<h2>Restart game?</h2>
+			<button class="r-btn"><i class='bx bx-reset'></i></button>
+			</section>
+		</section>
+		</main>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
