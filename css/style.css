@@ -1,6 +1,8 @@
 /******************************************
 /* CSS
 /*******************************************/
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 /* Box Model Hack */
 * {
@@ -10,6 +12,9 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
+body{
+  font-family: 'Roboto', sans-serif;
+}
 main {
   display: flex;
   justify-content: center;
@@ -120,7 +125,3 @@ div {
   transition: all .5s;
 
 }
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
