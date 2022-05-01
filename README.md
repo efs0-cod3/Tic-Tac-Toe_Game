@@ -1,6 +1,6 @@
 # Tic-Tac-Toe
 - A two players Tic-Tac-Toe game.
-<img src="img/snipped.gif">
+<img src="img/gf.gif">
 
 ## Links:
 - live server: [Click to play](https://efs0-cod3.github.io/Tic-Tac-Toe_Game/)
