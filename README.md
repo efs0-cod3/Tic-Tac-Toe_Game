@@ -1,6 +1,8 @@
-# Tic-Tac-Toe_Game
-A two players TicTacToe Game
+# Tic-Tac-Toe
+- A two players Tic-Tac-Toe game.
 
-## live server: [Click to play](https://efs0-cod3.github.io/Tic-Tac-Toe_Game/)
+## Links:
+- live server: [Click to play](https://efs0-cod3.github.io/Tic-Tac-Toe_Game/)
 
-### In this project we learned to catch a team member idea and turning into code. We learned to structure OOP.
+## Lesson learned: 
+- In this project we learned to catch a team member idea and turning into code. We learned to structure OOP for better team member code addition!
